@@ -97,7 +97,7 @@ class Radium_Tweets_Admin {
 
         add_settings_section(
             'setting_section_id', // ID
-            'Twitter Api Key', // Title
+            'Twitter Api Key.', // Title
             array( $this, 'print_section_info' ), // Callback
             'radium-tweets-setting-admin' // Page
         );
@@ -187,7 +187,7 @@ class Radium_Tweets_Admin {
      * @since 1.1.0
      */
     public function print_section_info() {
-        print 'Enter API settings below:';
+        print 'Enter API settings below:<br> <small>Visit <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a></small> to registers and get an api key.';
     }
 
     /**

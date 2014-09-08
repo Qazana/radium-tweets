@@ -116,7 +116,7 @@ class Radium_Tweets_Widget extends WP_Widget {
                     <ul id="twitter-update-list-'.$id.'">';
                     $fctr = '1';
                     foreach($radium_twitter_plugin_tweets as $tweet){
-                        print '<li><span>'.Radium_Tweets_Functions::convert_links($tweet['text']).'</span><a class="twitter-time" target="_blank" href="http://twitter.com/'.$instance['username'].'/statuses/'.$tweet['status_id'].'">'.Radium_Tweets_Functions::relative_time($tweet['created_at']).'</a></li>';
+                        print '<li><span>'.Radium_Tweets_Functions::convert_links($tweet['text']).'</span><a class="twitter-time" target="_blank" href="http://twitter.com/'.$options['username'].'/statuses/'.$tweet['status_id'].'">'.Radium_Tweets_Functions::relative_time($tweet['created_at']).'</a></li>';
                         if($fctr == $instance['tweetstoshow']){ break; }
                         $fctr++;
                     }

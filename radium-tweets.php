@@ -4,7 +4,7 @@ Plugin Name: Radium Tweets
 Plugin URI: http://radiumthemes.com/plugins/tweets
 Description: Easy to use tweeter feed plugin for Radium Themes
 Author: Franklin M Gitonga
-Version: 1.0.6
+Version: 1.0.8
 Author URI: http://radiumthemes.com/
 License: GPL v2+
 */
